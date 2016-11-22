@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- 光标、滑动按钮等颜色 -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!-- App共有功能的模块样式 -->
+    <!-- 注册界面、登录界面共有的输入手机号框 -->
+    <style name="input_phone_number">
+        <item name="android:layout_width">@dimen/login_register_find_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:paddingStart">@dimen/login_register_find_left_padding</item>
+        <item name="android:paddingEnd">@dimen/login_register_find_left_padding</item>
+        <item name="android:background">@drawable/login_register_find_border</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <!-- 注册界面、登录界面共有的输入密码框 -->
+    <style name="input_password">
+        <item name="android:layout_width">@dimen/login_register_find_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:paddingStart">@dimen/login_register_find_left_padding</item>
+        <item name="android:paddingEnd">@dimen/login_register_find_left_padding</item>
+        <item name="android:background">@drawable/login_register_find_border</item>
+    </style>
+    <!-- 注册界面、登录界面共有的输入验证码框 -->
+    <style name="input_code">
+        <item name="android:layout_width">@dimen/input_number_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:background">@drawable/login_register_find_border</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLength">6</item>
+        <item name="android:paddingStart">@dimen/login_register_find_left_padding</item>
+        <item name="android:paddingEnd">@dimen/login_register_find_left_padding</item>
+    </style>
+    <!-- 注册界面、登录界面共有的获取验证码框 -->
+    <style name="get_code">
+        <item name="android:layout_width">@dimen/get_number_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:text">@string/register_get_number_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/login_register_find_border</item>
+    </style>
+    <!-- 登录界面、注册界面、登录界面共有的按钮 -->
+    <style name="login_register_find_btn">
+        <item name="android:layout_width">@dimen/login_register_find_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:textSize">@dimen/login_register_find_text_size</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/login_register_find_btn</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <!-- 登录界面组件样式 -->
+    <!-- 用户名框 -->
+    <style name="login_username">
+        <item name="android:layout_width">@dimen/login_register_find_width</item>
+        <item name="android:layout_height">@dimen/login_register_find_height</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:maxLength">12</item>
+        <item name="android:textSize">@dimen/login_register_find_text_size</item>
+        <item name="android:background">@drawable/login_register_find_border</item>
+        <item name="android:paddingStart">@dimen/login_register_find_left_padding</item>
+        <item name="android:paddingEnd">@dimen/login_register_find_left_padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <!-- "注册"文字 -->
+    <style name="login_register">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/login_register_new_account</item>
+        <item name="android:textSize">@dimen/login_register_find_text_size</item>
+        <item name="android:onClick">true</item>
+    </style>
+    <!-- "忘记密码？"文字 -->
+    <style name="login_forget_pwd">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/login_forget_pwd_text</item>
+        <item name="android:textSize">@dimen/login_register_find_text_size</item>
+    </style>
+
+    <!-- 注册界面组件样式 -->
+    <!-- 复选框 -->
+    <style name="register_check_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/register_agree_text</item>
+        <item name="android:checked">true</item>
+        <item name="android:layout_marginTop">6dp</item>m>
+    </style>
+    <!-- 同意协议 -->
+    <style name="register_agree">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"><u>注册协议</u></item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_toEndOf">@+id/register_check_box</item>
+        <item name="android:layout_alignBaseline">@+id/register_check_box</item>
+    </style>
+
+    <!-- APP主界面RadioButton样式 -->
+    <style name="default_rb">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/default_rb_text_color</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- RadioButton上方横线 -->
+    <style name="default_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@color/default_line</item>
+        <item name="android:layout_above">@+id/rb_include</item>
+        <item name="android:layout_alignStart">@+id/rb_include</item>
+    </style>
+
+    <!-- 快速递功能模块的RadioButton设置 -->
+    <style name="quick_rb">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">210dp</item>
+        <item name="android:background">@drawable/quick_receive_courier</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/quick_text_size</item>
+        <item name="android:textColor">@color/quick_text_color</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>

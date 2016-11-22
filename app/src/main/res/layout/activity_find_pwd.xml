@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/action_bar_find_pwd"/>
+
+    <EditText
+        android:id="@+id/et_find_pwd_number"
+        style="@style/input_phone_number"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/et_find_pwd_input_new_password"
+        style="@style/input_password"
+        android:layout_below="@id/et_find_pwd_number"
+        android:layout_alignStart="@id/et_find_pwd_number"
+        android:layout_marginTop="26dp"/>
+
+    <EditText
+        android:id="@+id/et_find_pwd_repeat_input_new_password"
+        style="@style/input_password"
+        android:layout_below="@id/et_find_pwd_input_new_password"
+        android:layout_alignStart="@id/et_find_pwd_input_new_password"
+        android:layout_marginTop="26dp"/>
+
+    <EditText
+        android:id="@+id/et_find_pwd_input_code"
+        style="@style/input_code"
+        android:layout_below="@id/et_find_pwd_repeat_input_new_password"
+        android:layout_alignStart="@id/et_find_pwd_repeat_input_new_password"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_find_pwd_get_code"
+        style="@style/get_code"
+        android:layout_below="@id/et_find_pwd_repeat_input_new_password"
+        android:layout_alignTop="@id/et_find_pwd_input_code"
+        android:layout_toEndOf="@id/et_find_pwd_input_code"/>
+
+    <RadioButton
+        android:id="@+id/rb_find_pwd_btn"
+        style="@style/login_register_find_btn"
+        android:layout_below="@id/et_find_pwd_input_code"
+        android:text="@string/find_pwd_btn_text"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

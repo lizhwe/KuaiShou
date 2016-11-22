@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_login_username"
+        style="@style/login_username"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/et_login_password"
+        style="@style/input_password"
+        android:layout_below="@id/et_login_username"
+        android:layout_alignStart="@id/et_login_username"
+        android:layout_marginTop="30dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_login"
+        style="@style/login_register_find_btn"
+        android:text="@string/login_btn_text"
+        android:layout_below="@id/et_login_password"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_login_forget_pwd"
+        style="@style/login_forget_pwd"
+        android:layout_below="@id/rb_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/tv_login_register"
+        style="@style/login_register"
+        android:layout_below="@id/tv_login_forget_pwd"
+        android:layout_alignStart="@id/tv_login_forget_pwd"
+        android:layout_marginTop="15dp"/>
+
+
+
+</RelativeLayout>

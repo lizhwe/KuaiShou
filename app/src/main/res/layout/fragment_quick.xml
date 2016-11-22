@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/quick_receive_rb"
+        style="@style/quick_rb"
+        android:text="@string/quick_receive_text"
+        android:layout_marginTop="12dp"/>
+
+    <RadioButton
+        android:id="@+id/quick_send_rb"
+        style="@style/quick_rb"
+        android:text="@string/quick_send_text"
+        android:layout_below="@id/quick_receive_rb"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

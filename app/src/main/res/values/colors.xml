@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#329b27</color>
+    <color name="colorPrimaryDark">#2ea621</color>
+    <color name="colorAccent">#329c28</color>
+
+    <!-- APP主界面RadioButton横线颜色 -->
+    <color name="default_line">#999999</color>
+    <!-- RadioButton文字未选中的颜色颜色 -->
+    <color name="default_unchecked_text_color">#999999</color>
+    <!-- RadioButton文字选中的颜色颜色 -->
+    <color name="default_checked_text_color">#45C01A</color>
+
+
+    <!-- action_bar字体颜色 -->
+    <color name="action_bar_text_color">#ffffff</color>
+
+    <!-- 登陆、注册、找回密码界面相同样式 -->
+    <!-- 边框颜色 -->
+    <color name="widget_border_color">#329c28</color>
+    <!-- 按钮填充颜色 -->
+    <color name="btn_solid_color">#329c28</color>
+    <!-- 按钮文字颜色 -->
+    <color name="btn_text_color">#ffffff</color>
+
+    <!-- 快速递中字体默认颜色 -->
+    <color name="quick_text_unpressed_color">#bfbcbc</color>
+    <!-- 快速递中字体按压时颜色 -->
+    <color name="quick_text_pressed_color">#ef0707</color>
+    <!-- 快速递中border默认颜色 -->
+    <color name="quick_border_unpressed_color">#bfbcbc</color>
+    <!-- 快速递中border按压时颜色 -->
+    <color name="quick_border_pressed_color">#329c28</color>
+
+
+    <!-- 我的界面中item背景 -->
+    <color name="mine_item_color">#dededa</color>
+
+    <!--  -->
+
+
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义ActionBar样式 -->
+    <declare-styleable name="ActionBarAll">
+        <!-- action_bar左侧图标 -->
+        <attr name="left_icon" format="reference"/>
+        <!-- action_bar左侧图标距离左侧间距 -->
+        <attr name="left_icon_padding" format="dimension"/>
+        <!-- action_bar左侧文字 -->
+        <attr name="left_text" format="string"/>
+        <!-- action_bar左侧文字大小 -->
+        <attr name="left_text_size" format="dimension"/>
+        <!-- action_bar左侧文字颜色 -->
+        <attr name="left_text_color" format="color"/>
+        <!-- action_bar左侧文字距离左侧间距 -->
+        <attr name="left_text_padding" format="dimension"/>
+
+
+
+
+
+    </declare-styleable>
+</resources>

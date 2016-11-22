@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/action_bar_register"
+        android:id="@+id/include" />
+
+    <EditText
+        android:id="@+id/et_register_input_number"
+        style="@style/input_phone_number"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/et_register_input_password"
+        style="@style/input_password"
+        android:layout_below="@id/et_register_input_number"
+        android:layout_alignStart="@id/et_register_input_number"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/et_register_repeat_input_password"
+        style="@style/input_password"
+        android:layout_below="@id/et_register_input_password"
+        android:layout_alignStart="@id/et_register_input_password"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/et_register_input_code"
+        style="@style/input_code"
+        android:layout_below="@id/et_register_repeat_input_password"
+        android:layout_alignStart="@id/et_register_repeat_input_password"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_register_get_code"
+        style="@style/get_code"
+        android:layout_below="@id/et_register_input_password"
+        android:layout_alignTop="@id/et_register_input_code"
+        android:layout_toEndOf="@id/et_register_input_code"/>
+
+    <CheckBox
+        android:id="@+id/register_check_box"
+        style="@style/register_check_box"
+        android:layout_below="@id/et_register_input_code"
+        android:layout_alignStart="@id/et_register_input_code"/>
+
+    <TextView
+        android:id="@+id/register_agree"
+        style="@style/register_agree"/>
+
+    <RadioButton
+        android:id="@+id/rb_register_btn"
+        style="@style/login_register_find_btn"
+        android:text="@string/register_btn_text"
+        android:layout_below="@id/register_agree"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

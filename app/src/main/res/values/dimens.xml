@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 登录、注册、找回密码界面组件相同大小 -->
+    <!-- 宽度 -->
+    <dimen name="login_register_find_width">280dp</dimen>
+    <!-- 高度 -->
+    <dimen name="login_register_find_height">35dp</dimen>
+    <!-- 获取验证码框宽度 -->
+    <dimen name="get_number_width">80dp</dimen>
+    <!-- 输入验证码宽度 -->
+    <dimen name="input_number_width">160dp</dimen>
+    <!-- 边框角度 -->
+    <dimen name="login_register_find_corners">4dp</dimen>
+    <!-- 边框宽度 -->
+    <dimen name="login_register_find_border_width">1dp</dimen>
+    <!-- 文字尺寸 -->
+    <dimen name="login_register_find_text_size">16sp</dimen>
+    <!-- 左侧padding值 -->
+    <dimen name="login_register_find_left_padding">24dp</dimen>
+    <!-- 右侧padding值 -->
+    <dimen name="login_register_find_right_padding">12dp</dimen>
+
+    <!-- 快速递模块界面文字大小 -->
+    <dimen name="quick_text_size">26sp</dimen>
+
+
+
+</resources>
